@@ -15,9 +15,7 @@ section img{
 
 
 }
-.move{
-    background: url(img.jpg);
-}
+
 h1{
     padding-top: 5%;
     text-align: center;
@@ -27,4 +25,15 @@ h1{
     margin: 10%;
     display: block;
 
+}
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#30336b);
+
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#ff7979);
 }

@@ -6,5 +6,13 @@ $(window).scroll(function(){
                    })
 
 
-                   $('.move').backgroundMove({
+$('.move').backgroundMove({
                         movementStrength:'50'});
+
+
+$(window).scroll(function(){
+    let scroll=$(window).scrollTop();
+         $(".blur").css({
+             filter: 'blur(' +(scroll/50)+"px)" 
+         })
+})
